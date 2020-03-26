@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Height:</strong>
+  <%= @chair.height %>
+</p>
+
+<p>
+  <strong>Weight:</strong>
+  <%= @chair.weight %>
+</p>
+
+<p>
+  <strong>Material:</strong>
+  <%= @chair.material %>
+</p>
+
+<%= link_to 'Edit', edit_chair_path(@chair) %> |
+<%= link_to 'Back', chairs_path %>

@@ -1,0 +1,9 @@
+@chairs.map do |chair|
+  {
+    id: chair.id,
+    height: chair.height,
+    weight: chair.weight,
+    material: chair.material,
+    url: chair_url(chair, format: :json)
+  }
+end

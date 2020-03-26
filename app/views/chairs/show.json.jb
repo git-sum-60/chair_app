@@ -1,0 +1,8 @@
+{
+  id: @chair.id,
+  height: @chair.height,
+  weight: @chair.weight,
+  material: @chair.material,
+  created_at: @chair.created_at,
+  updated_at: @chair.updated_at
+}
